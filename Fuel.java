@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Fuel {
-    public static void main(String args[]) {
+  public static void main(String args[]) {
 
     int [] numsArr = {
       129315 
@@ -111,10 +111,8 @@ class Fuel {
         .map(i -> i - 2)
         .sum();
   
-
-
     System.out.println("-----!FUEL REQUIREMENTS FOR ALL OF THE MODULES ON YOUR SPACECRAFT!-----");
     
     System.out.println("\nFUEL SUM: " + fuel); 
-    }
+  }
 }
